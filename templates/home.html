@@ -1,0 +1,10 @@
+<h1>WORD COUNT IN DA PLACE</h1>
+
+<a href="{% url 'about' %}">random info</a>
+<br />
+
+<form action="{% url 'count' %}">
+	<textarea cols="40" rows="10" name="fulltext"></textarea>
+	<br />
+	<input type="submit" value="COUNT"/>
+</form>
